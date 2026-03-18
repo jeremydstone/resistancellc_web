@@ -187,33 +187,7 @@ body {
   }
 }
 
-/* Glitch flicker — subtle, runs once after initial reveal */
-.title-resistance.animate-glitch {
-  animation: title-reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards,
-             glitch 0.15s steps(2) 2s 3;
-}
 
-@keyframes glitch {
-  0% {
-    opacity: 1;
-    text-shadow: none;
-  }
-
-  25% {
-    opacity: 0.7;
-    text-shadow: -2px 0 #6c63ff, 2px 0 #00c8c8;
-  }
-
-  50% {
-    opacity: 1;
-    text-shadow: 2px 0 #6c63ff, -2px 0 #00c8c8;
-  }
-
-  100% {
-    opacity: 1;
-    text-shadow: none;
-  }
-}
 
 /* ===== About Section ===== */
 .about {

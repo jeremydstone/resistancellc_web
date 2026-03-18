@@ -148,11 +148,6 @@ window.addEventListener('resize', () => {
   drawParticles();
 });
 
-/* ===== Title glitch animation trigger ===== */
-const titleEl = document.querySelector('.title-resistance');
-setTimeout(() => {
-  titleEl.classList.add('animate-glitch');
-}, 100);
 
 /* ===== Scroll reveal (Intersection Observer) ===== */
 const revealEls = document.querySelectorAll('.reveal');
