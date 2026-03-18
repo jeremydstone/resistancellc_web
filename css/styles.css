@@ -48,18 +48,15 @@ body {
 }
 
 .nav-logo {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  color: #ffffff;
   text-decoration: none;
-  letter-spacing: 4px;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+  opacity: 1;
+  display: flex;
+  align-items: center;
 }
 
-.navbar.scrolled .nav-logo {
-  opacity: 1;
+.nav-logo-img {
+  height: 32px;
+  width: auto;
 }
 
 .nav-links {
