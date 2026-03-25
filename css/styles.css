@@ -300,6 +300,158 @@ body {
 .capsule.reveal[data-delay="1"] { transition-delay: 0.15s; }
 .capsule.reveal[data-delay="2"] { transition-delay: 0.3s; }
 
+/* ===== Contact Page ===== */
+.contact {
+  min-height: 100vh;
+  padding: 140px 40px 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact-inner {
+  max-width: 560px;
+  width: 100%;
+}
+
+.contact-heading {
+  font-family: Rajdhani, sans-serif;
+  font-weight: 300;
+  font-size: clamp(24px, 4vw, 40px);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 85%);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field label {
+  font-family: Rajdhani, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 50%);
+}
+
+.form-field input,
+.form-field textarea {
+  background: rgb(255 255 255 / 3%);
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 12px;
+  padding: 14px 18px;
+  color: #e0e0e8;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: rgb(108 99 255 / 40%);
+  box-shadow: 0 0 0 3px rgb(108 99 255 / 8%);
+}
+
+.form-field textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.human-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(255 255 255 / 50%);
+}
+
+.human-check input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(255 255 255 / 15%);
+  border-radius: 4px;
+  background: rgb(255 255 255 / 3%);
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.human-check input[type="checkbox"]:checked {
+  border-color: rgb(108 99 255 / 50%);
+  background: rgb(108 99 255 / 25%);
+}
+
+.human-check input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.form-submit {
+  font-family: Rajdhani, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgb(108 99 255 / 20%);
+  border: 1px solid rgb(108 99 255 / 30%);
+  border-radius: 12px;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background: rgb(108 99 255 / 35%);
+  border-color: rgb(108 99 255 / 50%);
+}
+
+.form-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.form-status {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 24px;
+}
+
+.form-status.success {
+  color: rgb(0 200 150);
+}
+
+.form-status.error {
+  color: rgb(255 100 100);
+}
+
 /* ===== Footer ===== */
 .footer {
   text-align: center;
@@ -335,6 +487,10 @@ body {
   .about-heading {
     margin-bottom: 48px;
     letter-spacing: 4px;
+  }
+
+  .contact {
+    padding: 120px 24px 60px;
   }
 }
 
