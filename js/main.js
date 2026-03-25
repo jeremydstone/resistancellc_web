@@ -1,14 +1,3 @@
-/* ===== Navbar shrink on scroll ===== */
-const navbar = document.getElementById('navbar');
-
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 60) {
-    navbar.classList.add('scrolled');
-  } else {
-    navbar.classList.remove('scrolled');
-  }
-});
-
 /* ===== Hero canvas — animated network/particle background ===== */
 const canvas = document.getElementById('hero-canvas');
 const ctx = canvas.getContext('2d');
@@ -166,16 +155,3 @@ const revealObserver = new IntersectionObserver(
 
 revealEls.forEach((el) => revealObserver.observe(el));
 
-/* ===== Smooth scroll for nav links ===== */
-document.querySelectorAll('.nav-links a, .nav-logo').forEach((link) => {
-  link.addEventListener('click', (e) => {
-    const href = link.getAttribute('href');
-    if (href.startsWith('#')) {
-      e.preventDefault();
-      const target = document.querySelector(href);
-      if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  });
-});

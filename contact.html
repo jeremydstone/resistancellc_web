@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Resistance LLC</title>
+  <meta name="description" content="Get in touch with Resistance LLC for technology advisory, R&amp;D, or entertainment contracting inquiries.">
+  <meta property="og:title" content="Contact — Resistance LLC">
+  <meta property="og:description" content="Get in touch with Resistance LLC.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/logo.png">
+  <link rel="canonical" href="https://resistancellc.com/contact.html">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;family=Inter:wght@100;200;300;400;500&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact-inner">
+      <h1 class="contact-heading">Get in Touch</h1>
+      <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms access key -->
+        <input type="hidden" name="access_key" value="39ac64e7-490e-4cf6-a235-f3b1e525fca2">
+        <input type="hidden" name="subject" value="New message from resistancellc.com">
+        <input type="hidden" name="from_name" value="Resistance LLC Website">
+
+        <!-- Honeypot spam protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <!-- Human verification -->
+        <label class="human-check">
+          <input type="checkbox" id="human-check" required>
+          <span>I am a human</span>
+        </label>
+
+        <button type="submit" class="form-submit">Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Resistance LLC. All rights reserved.</p>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script>
+    const form = document.getElementById('contact-form');
+    const status = document.getElementById('form-status');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('.form-submit');
+      status.className = 'form-status';
+      status.textContent = '';
+
+      if (!document.getElementById('human-check').checked) {
+        status.className = 'form-status error';
+        status.textContent = 'Please confirm you are a human.';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = 'SENDING...';
+
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: new FormData(form),
+        });
+        const data = await res.json();
+
+        if (data.success) {
+          status.className = 'form-status success';
+          status.textContent = 'Message sent successfully.';
+          form.reset();
+        } else {
+          status.className = 'form-status error';
+          status.textContent = data.message || 'Something went wrong. Please try again.';
+        }
+      } catch {
+        status.className = 'form-status error';
+        status.textContent = 'Something went wrong. Please try again.';
+      }
+
+      btn.disabled = false;
+      btn.textContent = 'SEND MESSAGE';
+    });
+  </script>
+</body>
+</html>
