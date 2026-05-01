@@ -1,23 +1,23 @@
 {
-  "categories": [
-    {
-        "id": "music",
-        "apps": [
-            {
-                "id": "metronome",
-                "iconUrl": "https://resistancellc.com/catalog/icons/metronome.webp",
-                "iosUrl": "https://apps.apple.com/app/id6761890503",
-                "androidUrl": "https://play.google.com/store/apps/details?id=com.resistancellc.metronome",
-                "languages": [
-                    {
-                        "language": "en",
-                        "name": "Metronome by Clearbeat",
-                        "description": "Your new favorite metronome."
-                    }
-                ]
-            }
-        ]
-    }
-  ],
-  "updatedAt": "2026-05-01"
+    "categories": [
+        {
+            "id": "music",
+            "apps": [
+                {
+                    "id": "metronome",
+                    "iconUrl": "https://resistancellc.com/catalog/icons/metronome.webp",
+                    "iosUrl": "https://apps.apple.com/app/id6761890503",
+                    "androidUrl": "https://play.google.com/store/apps/details?id=com.resistancellc.metronome",
+                    "languages": [
+                        {
+                            "language": "en",
+                            "name": "Metronome by Clearbeat",
+                            "description": "Your new favorite metronome."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "updatedAt": "2026-05-01"
 }
