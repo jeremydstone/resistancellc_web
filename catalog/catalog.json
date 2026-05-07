@@ -13,6 +13,41 @@
                             "language": "en",
                             "name": "Metronome by Clearbeat",
                             "description": "Your new favorite metronome."
+                        },
+                        {
+                            "language": "es",
+                            "name": "Metrónomo de Clearbeat",
+                            "description": "Tu nuevo metrónomo favorito."
+                        },
+                        {
+                            "language": "pt",
+                            "name": "Metrônomo da Clearbeat",
+                            "description": "Seu novo metrônomo favorito."
+                        },
+                        {
+                            "language": "fr",
+                            "name": "Métronome par Clearbeat",
+                            "description": "Votre nouveau métronome favori."
+                        },
+                        {
+                            "language": "de",
+                            "name": "Metronom von Clearbeat",
+                            "description": "Dein neues Lieblings-Metronom."
+                        },
+                        {
+                            "language": "it",
+                            "name": "Metronomo di Clearbeat",
+                            "description": "Il tuo nuovo metronomo preferito."
+                        },
+                        {
+                            "language": "ja",
+                            "name": "Clearbeatのメトロノーム",
+                            "description": "あなたの新しいお気に入りメトロノーム。"
+                        },
+                        {
+                            "language": "ko",
+                            "name": "Clearbeat의 메트로놈",
+                            "description": "당신의 새로운 최애 메트로놈."
                         }
                     ]
                 }
