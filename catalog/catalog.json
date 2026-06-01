@@ -12,47 +12,95 @@
                         {
                             "language": "en",
                             "name": "Metronome by Clearbeat",
-                            "description": "Your new favorite metronome."
+                            "description": "Musician's metronome. No ads."
                         },
                         {
                             "language": "es",
                             "name": "Metrónomo de Clearbeat",
-                            "description": "Tu nuevo metrónomo favorito."
+                            "description": "Metrónomo para músicos"
                         },
                         {
                             "language": "pt",
                             "name": "Metrônomo da Clearbeat",
-                            "description": "Seu novo metrônomo favorito."
+                            "description": "Metrônomo para músicos"
                         },
                         {
                             "language": "fr",
                             "name": "Métronome par Clearbeat",
-                            "description": "Votre nouveau métronome favori."
+                            "description": "Métronome pour musiciens"
                         },
                         {
                             "language": "de",
                             "name": "Metronom von Clearbeat",
-                            "description": "Dein neues Lieblings-Metronom."
+                            "description": "Metronom für Musiker"
                         },
                         {
                             "language": "it",
                             "name": "Metronomo di Clearbeat",
-                            "description": "Il tuo nuovo metronomo preferito."
+                            "description": "Metronomo per musicisti"
                         },
                         {
                             "language": "ja",
                             "name": "Clearbeatのメトロノーム",
-                            "description": "あなたの新しいお気に入りメトロノーム。"
+                            "description": "ミュージシャンのメトロノーム、広告なし"
                         },
                         {
                             "language": "ko",
                             "name": "Clearbeat의 메트로놈",
-                            "description": "당신의 새로운 최애 메트로놈."
+                            "description": "음악가를 위한 메트로놈, 광고 없음"
+                        }
+                    ]
+                },
+                {
+                    "id": "tuner",
+                    "iconUrl": "https://resistancellc.com/catalog/icons/tuner.webp",
+                    "iosUrl": "https://apps.apple.com/app/id6769921274",
+                    "androidUrl": "https://play.google.com/store/apps/details?id=com.resistancellc.tuner",
+                    "languages": [
+                        {
+                            "language": "en",
+                            "name": "Tuner by Clearbeat",
+                            "description": "Guitar & Instrument Tuner"
+                        },
+                        {
+                            "language": "es",
+                            "name": "Afinador de Clearbeat",
+                            "description": "Afinador de guitarra y más"
+                        },
+                        {
+                            "language": "pt",
+                            "name": "Afinador da Clearbeat",
+                            "description": "Afinador de guitarra e mais"
+                        },
+                        {
+                            "language": "fr",
+                            "name": "Accordeur par Clearbeat",
+                            "description": "Accordeur de guitare et plus"
+                        },
+                        {
+                            "language": "de",
+                            "name": "Stimmgerät von Clearbeat",
+                            "description": "Stimmgerät für Gitarre & mehr"
+                        },
+                        {
+                            "language": "it",
+                            "name": "Accordatore di Clearbeat",
+                            "description": "Accordatore chitarra & altro"
+                        },
+                        {
+                            "language": "ja",
+                            "name": "Clearbeatのチューナー",
+                            "description": "ギター・楽器チューナー"
+                        },
+                        {
+                            "language": "ko",
+                            "name": "Clearbeat의 튜너",
+                            "description": "기타 및 악기 튜너"
                         }
                     ]
                 }
             ]
         }
     ],
-    "updatedAt": "2026-05-01"
+    "updatedAt": "2026-06-01"
 }
