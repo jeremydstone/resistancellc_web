@@ -60,47 +60,47 @@
                         {
                             "language": "en",
                             "name": "Tuner by Clearbeat",
-                            "description": "Guitar & Instrument Tuner"
+                            "description": "Tuner for musicians. No ads."
                         },
                         {
                             "language": "es",
                             "name": "Afinador de Clearbeat",
-                            "description": "Afinador de guitarra y más"
+                            "description": "Para músicos. Sin anuncios."
                         },
                         {
                             "language": "pt",
                             "name": "Afinador da Clearbeat",
-                            "description": "Afinador de guitarra e mais"
+                            "description": "Para músicos. Sem anúncios."
                         },
                         {
                             "language": "fr",
                             "name": "Accordeur par Clearbeat",
-                            "description": "Accordeur de guitare et plus"
+                            "description": "Pour les musiciens. Sans pub."
                         },
                         {
                             "language": "de",
                             "name": "Stimmgerät von Clearbeat",
-                            "description": "Stimmgerät für Gitarre & mehr"
+                            "description": "Für Musiker. Keine Werbung."
                         },
                         {
                             "language": "it",
                             "name": "Accordatore di Clearbeat",
-                            "description": "Accordatore chitarra & altro"
+                            "description": "Per musicisti. Senza annunci."
                         },
                         {
                             "language": "ja",
                             "name": "Clearbeatのチューナー",
-                            "description": "ギター・楽器チューナー"
+                            "description": "ミュージシャンのためのチューナー。広告なし。"
                         },
                         {
                             "language": "ko",
                             "name": "Clearbeat의 튜너",
-                            "description": "기타 및 악기 튜너"
+                            "description": "음악가를 위한 튜너. 광고 없음."
                         }
                     ]
                 }
             ]
         }
     ],
-    "updatedAt": "2026-06-01"
+    "updatedAt": "2026-06-03"
 }
