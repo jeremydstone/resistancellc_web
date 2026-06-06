@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minesweeper by Clearplay</title>
+  <meta name="description" content="Minesweeper by Clearplay — classic retro gameplay.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="app_icon.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;family=Inter:wght@100;200;300;400;500&amp;display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #000;
+      color: #e0e0e8;
+      line-height: 1.6;
+      padding: 60px 24px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .app-header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .app-icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 20px;
+      display: block;
+    }
+
+    h1 {
+      font-family: Rajdhani, sans-serif;
+      font-weight: 700;
+      font-size: clamp(24px, 5vw, 40px);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: rgb(255 255 255 / 90%);
+    }
+
+    .tagline {
+      margin-top: 24px;
+      font-weight: 300;
+      font-size: 16px;
+      color: rgb(255 255 255 / 60%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="app-header">
+      <img class="app-icon" src="app_icon.jpg" alt="Minesweeper app icon">
+      <h1>Minesweeper by Clearplay</h1>
+    </header>
+
+    <p class="tagline">Classic retro gameplay.</p>
+  </div>
+</body>
+</html>
