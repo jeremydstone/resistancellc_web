@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "lint": "npm run lint:html && npm run lint:css && npm run lint:js && npm run lint:json",
-    "lint:html": "htmlhint index.html && html-validate index.html",
+    "lint:html": "htmlhint index.html terms.html && html-validate index.html terms.html",
     "lint:css": "stylelint css/styles.css",
     "lint:js": "eslint js/main.js",
     "lint:json": "node -e \"JSON.parse(require('fs').readFileSync('catalog/catalog.json','utf8'))\""
