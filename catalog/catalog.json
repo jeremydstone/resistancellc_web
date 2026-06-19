@@ -1,6 +1,59 @@
 {
     "categories": [
         {
+            "id": "games-puzzle",
+            "apps": [
+                {
+                    "id": "minesweeper",
+                    "iconUrl": "https://resistancellc.com/catalog/icons/minesweeper.webp",
+                    "iosUrl": "https://apps.apple.com/app/id6771256737",
+                    "androidUrl": "https://play.google.com/store/apps/details?id=com.resistancellc.minesweeper",
+                    "languages": [
+                        {
+                            "language": "en",
+                            "name": "Minesweeper by Clearplay",
+                            "description": "Classic Retro Game. No Ads."
+                        },
+                        {
+                            "language": "es",
+                            "name": "Buscaminas de Clearplay",
+                            "description": "Clásico retro. Sin anuncios."
+                        },
+                        {
+                            "language": "pt",
+                            "name": "Campo Minado da Clearplay",
+                            "description": "Clássico retrô. Sem anúncios."
+                        },
+                        {
+                            "language": "fr",
+                            "name": "Démineur par Clearplay",
+                            "description": "Jeu rétro. Sans publicité."
+                        },
+                        {
+                            "language": "de",
+                            "name": "Minesweeper von Clearplay",
+                            "description": "Retro-Klassiker. Ohne Werbung."
+                        },
+                        {
+                            "language": "it",
+                            "name": "Campo minato di Clearplay",
+                            "description": "Gioco retrò. Senza pubblicità."
+                        },
+                        {
+                            "language": "ja",
+                            "name": "Clearplayのマインスイーパー",
+                            "description": "クラシックなレトロゲーム。広告なし。"
+                        },
+                        {
+                            "language": "ko",
+                            "name": "Clearplay의 지뢰찾기",
+                            "description": "클래식 레트로 게임. 광고 없음."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "music",
             "apps": [
                 {
@@ -102,5 +155,5 @@
             ]
         }
     ],
-    "updatedAt": "2026-06-03"
+    "updatedAt": "2026-06-18"
 }
